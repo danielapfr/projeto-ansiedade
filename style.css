@@ -100,6 +100,8 @@ main h1{
     font-family: var(--font-padrao);
     font-weight: normal;
     font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
 }
 
 main h2{
@@ -107,6 +109,7 @@ main h2{
     font-family: var(--font-padrao);
     font-weight: normal;
     font-size: 1.5em;
+    
 }
 
 main h3{
@@ -206,4 +209,39 @@ main img{
     font-family: var(--font-padrao);
     font-weight: normal;
     font-size: 1em;
+}
+
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: var(--cor5);
+    color:white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+footer a{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
 }
