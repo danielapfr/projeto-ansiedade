@@ -116,7 +116,7 @@ main h3{
     color:var(--cor5);
     font-family: var(--font-padrao);
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 main img{
@@ -211,6 +211,40 @@ main img{
     font-size: 1em;
 }
 
+.antes {
+    background-color: #f9f9f9;
+    border: 2px solid var(--cor0);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: var(--font-padrao);
+}
+
+.botoes{
+    color: var(--cor4);
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+}
+
+p{
+    color: var(--cor5);
+}
+
+.depois{
+    background-color: #f9f9f9;
+    border: 2px solid var(--cor0);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: var(--font-padrao);
+}
+
 div.video{
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
@@ -244,4 +278,46 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
+}
+
+.sons{
+    background-color: #f9f9f9;
+    border: 2px solid var(--cor0);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: var(--font-padrao);
+}
+
+.sons h3{
+    color:var(--cor4);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.sons p{
+    color: var(--cor2);
+    font-size: 13px;
+    margin-bottom: 15PX;
+}
+
+.som{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.077);
+}
+
+.som p{
+    margin: 0 0 5px 0;
+    font-size: 13px;
+    color: #334155;
+    font-weight: bold;
+}
+.som audio{
+    width: 100%;
+    height: ;
 }
